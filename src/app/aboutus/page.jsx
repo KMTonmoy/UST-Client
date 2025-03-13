@@ -47,7 +47,7 @@ const Page = () => {
                     transition={{ duration: 0.8 }}
                 >
                     <motion.img
-                        src="https://i.ibb.co.com/6s03Tmz/276135413-5106827936072419-768008308068333860-n.jpg"
+                        src="https://i.pinimg.com/1200x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg"
                         alt="Head Teacher"
                         className="rounded-lg shadow-lg"
                         whileHover={{ scale: 1.05 }}
@@ -58,11 +58,11 @@ const Page = () => {
                             Our <span className="text-purple-600">Head Teacher</span>
                         </h3>
                         <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                            Meet <span className="font-semibold text-purple-600">Rafique Sir</span>, our experienced and dedicated educator, committed to nurturing your skills and guiding you towards success.
+                            Meet <span className="font-semibold text-purple-600">John Doe</span>, our experienced and dedicated educator, committed to nurturing your skills and guiding you towards success.
                         </p>
                         <ul className="space-y-2 text-gray-700">
-                            <li>📞 Contact: +880123456789</li>
-                            <li>📧 Email: rafique@example.com</li>
+                            <li>📞 Contact: +8801987654321</li>
+                            <li>📧 Email: johndoe@example.com</li>
                             <li>
                                 🌐 Facebook:{" "}
                                 <a href="#" className="text-purple-600 hover:underline">
@@ -115,7 +115,7 @@ const Page = () => {
                         </ul>
                     </div>
                     <motion.img
-                        src="https://i.ibb.co.com/h1CCmyV/467525721-541729678777227-884255802110847914-n-1.jpg"
+                        src="https://i.ibb.co/h1CCmyV/467525721-541729678777227-884255802110847914-n-1.jpg"
                         alt="Tonmoy Ahamed"
                         className="rounded-lg shadow-lg"
                         whileHover={{ scale: 1.05 }}

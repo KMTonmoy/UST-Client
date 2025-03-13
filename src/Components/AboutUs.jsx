@@ -5,7 +5,7 @@ import { FaCheckCircle } from 'react-icons/fa'
 
 const AboutUs = () => {
   return (
-    <section className=' flex flex-col md:flex-row items-center max-w-7xl mx-auto my-16 px-6'>
+    <section className='flex flex-col md:flex-row items-center max-w-7xl mx-auto my-16 px-6'>
       <motion.div
         className='md:w-1/2'
         initial={{ opacity: 0, x: -100 }}
@@ -13,7 +13,7 @@ const AboutUs = () => {
         transition={{ duration: 1 }}
       >
         <img
-          src='https://www.venkateshwaragroup.in/vgiblog/wp-content/uploads/2022/09/Untitled-design-2-1.jpg'
+          src='https://randomuser.me/api/portraits/men/32.jpg' 
           alt='About Us'
           className='w-full rounded-lg shadow-lg'
         />
@@ -25,7 +25,7 @@ const AboutUs = () => {
         transition={{ duration: 1 }}
       >
         <h2 className='text-2xl md:text-4xl font-bold text-gray-800 mb-6'>
-          Why Choose Us?
+          Why Choose Babby?
         </h2>
         <ul className='space-y-4 text-lg text-gray-700'>
           <motion.li

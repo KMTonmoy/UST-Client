@@ -5,40 +5,64 @@ import { motion } from 'framer-motion';
 const OurServices = () => {
     const services = [
         {
-            title: "Learn English Grammar",
-            description: "Master English grammar with structured lessons, quizzes, and real-life examples designed for all levels. Our courses cover everything from basic tenses to advanced sentence structures.",
-            icon: "📚",
-            image: "https://mytutorsource.com/blog-images/wp-content/uploads/2022/01/noun.jpg",
+            title: "Learn Physics",
+            description: "Master the concepts of Physics with detailed explanations, problem-solving techniques, and practical experiments. Ideal for SSC, HSC, and university students.",
+            icon: "🧲",
+            image: "https://www.vedantu.com/seo/content-images/bc692335-2c03-4559-9cf0-dff766298eef.jpg",
         },
         {
-            title: "Improve Speaking Skills",
-            description: "Enhance your fluency and confidence in spoken English with interactive speaking sessions, group discussions, and expert guidance. Our focus is on conversational skills, pronunciation, and effective communication.",
+            title: "Learn English",
+            description: "Improve your English skills with grammar lessons, vocabulary building, and speaking practice. Suitable for academic and professional purposes.",
             icon: "🗣️",
-            image: "https://dpi.ac/wp-content/uploads/2023/04/image.png",
+            image: "https://idc.edu/wp-content/uploads/2018/03/8-Ways-to-Learn-English-Faster.webp",
         },
         {
-            title: "Access Learning Resources",
-            description: "Explore a wide range of free learning materials, including e-books, videos, podcasts, and practice exercises. We have resources for every learner, from beginners to advanced.",
+            title: "Learn Biology",
+            description: "Explore the world of life sciences with comprehensive biology lessons, covering genetics, physiology, and ecology. Suitable for SSC, HSC, and medical students.",
+            icon: "🌱",
+            image: "https://www.scotthyoung.com/blog/wp-content/uploads/2021/01/biology.png",
+        },
+        {
+            title: "Learn Chemistry",
+            description: "Understand chemical reactions, organic chemistry, and lab experiments with our interactive modules and practical problem-solving.",
+            icon: "🧪",
+            image: "https://bright-culture.com/wp-content/uploads/2021/06/learn-chemistry-optimized.jpg",
+        },
+        {
+            title: "Learn Mathematics",
+            description: "Build a strong foundation in algebra, geometry, calculus, and statistics. Perfect for SSC, HSC, and university students.",
+            icon: "➗",
+            image: "https://ed.stanford.edu/sites/default/files/styles/free_crop_original/public/news_images/math2.jpeg?itok=DzVqrTRx",
+        },
+        {
+            title: "Learn Accounting",
+            description: "Master the principles of accounting, financial statements, and bookkeeping practices. Essential for Commerce students.",
+            icon: "📊",
+            image: "https://online.hbs.edu/Style%20Library/api/resize.aspx?imgpath=/PublishingImages/business-professional-learning-accounting.jpeg&w=1200&h=630",
+        },
+        {
+            title: "Learn Agriculture",
+            description: "Gain knowledge in modern farming techniques, crop production, and agricultural management. Ideal for vocational students and professionals.",
+            icon: "🌾",
+            image: "https://gla.ac.in/blog/wp-content/uploads/2023/09/web-blog-7-Awesome-Things-You-Can-Learn-from-Studying-Agriculture.jpg",
+        },
+        {
+            title: "Learn History",
+            description: "Dive into the past and explore historical events, ancient civilizations, and world history. Great for Arts students.",
+            icon: "📜",
+            image: "https://www.mooc.org/hubfs/history.jpg",
+        },
+        {
+            title: "Learn Economics",
+            description: "Understand the basics of economics, microeconomics, macroeconomics, and their applications in the real world.",
+            icon: "💰",
+            image: "https://www.econlib.org/wp-content/uploads/2023/11/learn-economics.jpg",
+        },
+        {
+            title: "Learn Bengali Literature",
+            description: "Explore the rich heritage of Bengali literature, poetry, and prose with expert guidance and engaging content.",
             icon: "📖",
-            image: "https://lh6.googleusercontent.com/proxy/5JeQjDD67RqTOMhw3MsLczs-4m702RfB4KI0MyZphbeRO0F24XyVK3HJCJQEWYNYD2MoX1_K5xwgCtRMzmGXSdp50Wq23JQolEWzjczGt3DtM9maVd2whbJC-FuoVWlhqM0MLKwK6BFIMA",
-        },
-        {
-            title: "Prepare for Exams",
-            description: "Get ready for IELTS, TOEFL, and other English proficiency exams with our targeted practice modules. We provide mock tests, exam strategies, and personalized feedback to help you succeed.",
-            icon: "🎓",
-            image: "https://seofiles.s3.amazonaws.com/seo/media/lr/images/blog/d69c3ffd-4eaf-40b0-bab6-1ab27ea74494.jpg",
-        },
-        {
-            title: "Business English Training",
-            description: "Improve your business English skills with courses tailored for professionals. Learn how to write emails, create presentations, and engage in meetings with confidence.",
-            icon: "💼",
-            image: "https://static1.squarespace.com/static/5970f2036f4ca391f33df1ec/t/5ee8f72e6366267772e9569b/1592325938515/Business-English-TEFL.jpg?format=1500w",
-        },
-        {
-            title: "Personalized Learning Path",
-            description: "Receive personalized learning paths based on your current level and learning goals. Our expert instructors will guide you every step of the way to ensure you progress at your own pace.",
-            icon: "📝",
-            image: "https://elearningindustry.com/wp-content/uploads/2015/11/7-tips-to-create-personal-learning-paths-in-elearning-e1448614319869.jpg",
+            image: "https://i0.wp.com/hindustanitongue.com/wp-content/uploads/2022/03/How-to-learn-Bengali-language.jpg?fit=1280%2C720&ssl=1",
         },
     ];
 
@@ -46,7 +70,7 @@ const OurServices = () => {
         <section className="py-16 bg-gray-50">
             <div className="max-w-7xl mx-auto px-6">
                 <h2 className="text-4xl font-bold text-center mb-12 text-purple-600">
-                    Explore Our Services
+                    Explore Our Learning Subjects
                 </h2>
                 <motion.div
                     className="space-y-16"
